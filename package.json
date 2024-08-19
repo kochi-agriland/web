@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "page:build": "astro build && mv ./dist/* ./docs/*",
+    "page:build": "astro build && mv ./dist/* ./docs/",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
